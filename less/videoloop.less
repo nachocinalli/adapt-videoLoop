@@ -1,21 +1,30 @@
 .videoloop {
   &__video {
-    width: 100%;
+    max-width: 100%;
   }
   &.is-flex &__inner {
     display: flex;
+    flex-direction: column;
     gap: 1rem;
+    @media (min-width: @device-width-medium) {
+      flex-direction: row;
+      .videoloop__video,
+      .videoloop__header {
+        width: 50%;
+      }
+    }
   }
+
   &.justify-content-center &__inner {
     justify-content: center;
   }
   &.align-items-center &__inner {
     align-items: center;
   }
-  &.is-row-reverse &__inner {
-    flex-direction: row-reverse;
-  }
-  &.video-width-40 &__video {
-    width: 40%;
-  }
+  &.is-flex-reverse &__inner {
+    flex-direction: column-reverse;
+    @media (min-width: @device-width-medium) {
+      flex-direction: row-reverse;
+    }
+  }  
 }

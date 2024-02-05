@@ -1,0 +1,9 @@
+{
+  "_id": "c-05",
+  "_parentId": "b-05",
+  "_type": "component",
+  "_component": "videoLoop",
+  "_classes": "",
+  "_layout": "left",
+  "_src": "course/en/assets/c-05.mp4"
+}

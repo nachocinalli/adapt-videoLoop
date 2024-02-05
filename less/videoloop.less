@@ -1,0 +1,21 @@
+.videoloop {
+  &__video {
+    width: 100%;
+  }
+  &.is-flex &__inner {
+    display: flex;
+    gap: 1rem;
+  }
+  &.justify-content-center &__inner {
+    justify-content: center;
+  }
+  &.align-items-center &__inner {
+    align-items: center;
+  }
+  &.is-row-reverse &__inner {
+    flex-direction: row-reverse;
+  }
+  &.video-width-40 &__video {
+    width: 40%;
+  }
+}

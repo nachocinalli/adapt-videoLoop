@@ -1,0 +1,18 @@
+{
+  "name": "adapt-videoLoop",
+  "version": "1.0.0",
+  "framework": ">=5.19.1",
+  "homepage": "https://github.com/nachocinalli/adapt-videoLoop",
+  "bugs": "https://github.com/nachocinalli/adapt-videoLoop/issues",
+  "component": "videoLoop",
+  "targetAttribute": "_videoLoop",
+  "displayName": "Video Loop",
+  "description": "A video loop component",
+  "main": "/js/adapt-videoLoop.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPL-3.0",
+  "private": true
+}

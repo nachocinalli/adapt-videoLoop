@@ -33,6 +33,41 @@
             "inputType": "Asset:video",
             "validators": [],
             "help": "The video source"
+        },
+        "_poster": {
+            "type": "string",
+            "required": false,
+            "default": "",
+            "title": "Poster",
+            "inputType": "Asset:image",
+            "validators": [],
+            "help": "The poster image"
+        },
+        "pauseLabel": {
+            "type": "string",
+            "required": false,
+            "default": "Pause",
+            "title": "Pause label",
+            "inputType": "Text",
+            "validators": [],
+            "translatable": true
+        },
+        "playLabel": {
+            "type": "string",
+            "required": false,
+            "default": "Play",
+            "title": "Play label",
+            "inputType": "Text",
+            "validators": [],
+            "translatable": true
+        },
+        "_showPauseControl": {
+            "type": "boolean",
+            "required": true,
+            "default": true,
+            "title": "Show pause control",
+            "inputType": "Checkbox",
+            "validators": []
         }
     }
 }

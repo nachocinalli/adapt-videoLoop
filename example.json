@@ -5,5 +5,9 @@
   "_component": "videoLoop",
   "_classes": "",
   "_layout": "left",
-  "_src": "course/en/assets/c-05.mp4"
+  "_src": "course/en/assets/c-05.mp4",
+  "_poster": "course/en/assets/c-05-poster.jpg",
+  "pauseLabel": "Pause",
+  "playLabel": "Play",
+  "_showPauseControl": true
 }

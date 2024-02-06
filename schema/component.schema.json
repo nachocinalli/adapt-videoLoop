@@ -25,6 +25,30 @@
             "type": "Asset",
             "media": "video"
           }
+        },
+        "_poster": {
+          "type": "string",
+          "isObjectId": true,
+          "title": "Poster",
+          "_backboneForms": {
+            "type": "Asset",
+            "media": "image"
+          }
+        },
+        "pauseLabel": {
+          "type": "string",
+          "title": "Pause label",
+          "default": "Pause"
+        },
+        "playLabel": {
+          "type": "string",
+          "title": "Play label",
+          "default": "Play"
+        },
+        "_showPauseControl": {
+          "type": "boolean",
+          "title": "Show pause control",
+          "default": true
         }
       }
     }
